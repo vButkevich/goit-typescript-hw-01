@@ -14,8 +14,8 @@ value = "text";
 console.log("value.s :>> ", value);
 value = 777;
 console.log("value.n :>> ", value);
-value = true;
-console.log("value.b :>> ", value);
+// value = true;
+// console.log("value.b :>> ", value);
 
 let status: "enable" | "disable";
 status = "enable";
@@ -23,7 +23,7 @@ console.log("value.e :>> ", status);
 status = "disable";
 console.log("value.e :>> ", status);
 
-status = "status";
-console.log("value.e :>> ", status);
+// status = "status";
+// console.log("value.e :>> ", status);
 
 export {};

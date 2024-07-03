@@ -18,9 +18,9 @@ function customError(): never {
 }
 
 showMessage("1");
-showMessage(111);
+// showMessage(111);
 
 console.log("calc :>> ", calc(1, 2));
-console.log("calc :>> ", calc(1, "2"));
+// console.log("calc :>> ", calc(1, "2"));
 
 customError();

@@ -23,6 +23,6 @@ console.log("username :>> ", username);
 console.log("toggle :>> ", toggle);
 console.log("empty :>> ", empty);
 console.log("callback :>> ", callback(1));
-console.log("callback :>> ", callback("1"));
+// console.log("callback :>> ", callback("1"));
 
 export {};

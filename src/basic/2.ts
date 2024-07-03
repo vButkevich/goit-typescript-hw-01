@@ -14,7 +14,7 @@ console.log("person :>> ", person);
 person = ["Max1", 21];
 console.log("person1 :>> ", person);
 
-person = [21, "Max2"];
+// person = [21, "Max2"];
 console.log("person :>> ", person);
 
 export {};

@@ -43,7 +43,7 @@ type Form = {
 type Params = Omit<Form, "errors">;
 
 // Перевірка типів
-let params: Params = {
+const params: Params = {
   email: "email@email.com",
   firstName: "firstName",
   lastName: "lastName",

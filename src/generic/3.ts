@@ -1,0 +1,24 @@
+console.log("generic:3.ts :>>---------------------------------------- ");
+/*
+У вас є функція merge,
+ яка поєднує два об'єкти.
+  Використовуйте generics, 
+  щоб вказати, що ці об'єкти можуть бути будь-якого типу.
+
+function merge(objA, objB) {
+  return Object.assign(objA, objB);
+}
+*/
+
+function merge<T, U>(objA: T, objB: U): T & U {
+  console.log("abjA :>> ", objA);
+  console.log("objB :>> ", objB);
+  return Object.assign({}, objA, objB);
+}
+
+// Приклад використання
+const objA = { name: "Alice" };
+const objB = { age: 30 };
+
+const mergedObject = merge(objA, objB);
+console.log("mergedObject :>> ", mergedObject);
